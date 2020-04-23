@@ -5,9 +5,17 @@ $os=$_GET['os'];
 $role=1;
 $query="INSERT INTO user(`username`, `os`, `role`) VALUES ('$username','$os',1)";
 if($exec=mysqli_query($conn,$query)){
-  echo "success";
+?>
+  <div id="result">
+    Success
+  </div>
+<?php
 }
 else {
-  echo "failed";
+  ?>
+    <div class="result">
+      Failed
+    </div>
+  <?php
 }
 ?>
