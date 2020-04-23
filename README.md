@@ -8,7 +8,7 @@ Server that receive requests and return responses to og-bomber
 ## Support
 - [Buy me a coffee ☕🍪](https://paypal.me/samartha890?locale.x=en_GB)
 
-## Contributing
+## Contribute
 - 🍴 Fork this repo!
 - 👯 Clone this repo to your local machine using `https://github.com/yunghog/og-bomber-server.git`
 - Pull requests
