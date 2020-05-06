@@ -94,7 +94,7 @@ a {
 .form-control {
   height: 47px; }
   .form-control:active, .form-control:focus {
-    border-color: #20d7f7 ; }
+    border-color: #077882 ; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
@@ -264,7 +264,7 @@ a {
           transition: 0s all;
           color: #fff; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
-          color: #20d7f7  !important; }
+          color: #077882  !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -274,7 +274,7 @@ a {
             padding: 5px 20px;
             display: block; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
-              color: #20d7f7 ; }
+              color: #077882 ; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
             content: "\e315";
             right: 20px; }
@@ -282,7 +282,7 @@ a {
             left: 100%;
             top: 0; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:active > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:focus > a {
-            color: #20d7f7 ; }
+            color: #077882 ; }
       .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active > a {
         color: #fff; }
       .site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active {
@@ -330,7 +330,8 @@ a {
       .site-navbar-wrap.scrolled .site-navbar .site-navigation .site-menu > li > a:hover {
         color: #000; }
     .site-navbar-wrap.scrolled .site-navbar .site-navigation .site-menu > li.active > a {
-      color: #20d7f7  !important; }
+      color: #077882  !important;
+      font-weight: bolder;}
 
 .site-mobile-menu {
   width: 300px;
@@ -401,12 +402,12 @@ a {
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #20d7f7 ; }
+        color: #077882 ; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li.active > a {
-        color: #20d7f7 ; }
+        color: #077882 ; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -619,7 +620,7 @@ a {
     display: block;
     border-radius: 50%;
     opacity: 1;
-    color: #20d7f7  !important; }
+    color: #077882  !important; }
     .site-block-half.site-block-video .image .play-button:hover {
       opacity: 1; }
     .site-block-half.site-block-video .image .play-button > span {
@@ -732,7 +733,7 @@ a {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
     .block-13 .owl-dots .owl-dot.active > span, .block-14 .owl-dots .owl-dot.active > span, .block-15 .owl-dots .owl-dot.active > span {
-      background: #20d7f7 ; }
+      background: #077882 ; }
 
 .slide-one-item.home-slider .owl-nav {
   -webkit-transition: .3s all ease-in-out;
@@ -840,7 +841,7 @@ a {
         width: 80px;
         height: 4px;
         margin-top: -4px;
-        background: #20d7f7 ;
+        background: #077882 ;
         top: 0; }
       .block-12 .text .text-inner .heading {
         font-size: 20px;
@@ -863,7 +864,7 @@ a {
     display: block;
     border-radius: 50%;
     opacity: 1;
-    color: #20d7f7  !important; }
+    color: #077882  !important; }
     .block-16 figure .play-button:hover {
       opacity: 1; }
     .block-16 figure .play-button > span {
@@ -906,7 +907,7 @@ a {
   color: #999999; }
 
 .block-25 ul li a .meta {
-  color: #20d7f7 ; }
+  color: #077882 ; }
 
 .block-25 ul li a:hover img {
   opacity: .5; }
@@ -935,7 +936,7 @@ a {
     position: absolute;
     width: 30px;
     height: 30px;
-    background: #20d7f7 ;
+    background: #077882 ;
     border-radius: 50%;
     color: #fff; }
     .player .team-number > span {
@@ -970,7 +971,7 @@ a {
     border-radius: 50%;
     border: 1px solid #ccc; }
   .site-block-27 ul li.active a, .site-block-27 ul li.active span {
-    background: #20d7f7 ;
+    background: #077882 ;
     color: #fff;
     border: 1px solid transparent; }
 
@@ -1039,7 +1040,7 @@ a {
   border-bottom: 2px solid transparent; }
 
 .half-sm:hover .text, .half-sm:focus .text {
-  background: #20d7f7  !important;
+  background: #077882  !important;
   color: #fff; }
   .half-sm:hover .text h2, .half-sm:focus .text h2 {
     color: #fff !important; }
@@ -1075,7 +1076,7 @@ a {
       transition: .3s all ease;
       top: 0;
       left: 0;
-      background-color: #20d7f7 ; }
+      background-color: #077882 ; }
     .block-37 .image .block-37-overlay {
       z-index: 3;
       position: absolute;
@@ -1117,7 +1118,7 @@ a {
     width: 50px;
     height: 2px;
     bottom: 0;
-    background: #20d7f7 ;
+    background: #077882 ;
     left: 0; }
 
 .block-feature.text-center h2:after, .block-feature.text-center .heading:after, .heading-with-border.text-center h2:after, .heading-with-border.text-center .heading:after {
@@ -1169,8 +1170,8 @@ a {
       border-left: 10px solid transparent;
       border-right: 10px solid transparent; }
       .block-schedule .row-wrap > .row:hover {
-        border-left: 10px solid #20d7f7 ;
-        border-right: 10px solid #20d7f7 ;
+        border-left: 10px solid #077882 ;
+        border-right: 10px solid #077882 ;
         -webkit-transform: scale(1.01);
         -ms-transform: scale(1.01);
         transform: scale(1.01);
@@ -1343,9 +1344,9 @@ a {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease;
-      background: #20d7f7 ;
+      background: #077882 ;
       color: #fff;
-      border: 1px solid #20d7f7 ; }
+      border: 1px solid #077882 ; }
     .unit-8 .accordion-item .heading > a[aria-expanded="false"]:before {
       content: "\e313";
       color: #ccc;
@@ -1458,7 +1459,7 @@ a {
 
 /* user code */
 .site-logo img{
-  width: 30%;
+  width: 70%;
 }
 .intro-text{
   position: absolute;
