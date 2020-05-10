@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'nexa';
+    src: url('../fonts/nexa.otf');
+}
+body{
+font-family: 'nexa';
+}
+header{
+padding: 15px 10px 10px 10px;
+position: fixed;
+top: 0px;
+left: 0px;
+}
+.site-icon{
+  width: 50%;
+}
