@@ -61,7 +61,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "futura";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10142,13 +10142,14 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    color: #fff;
+    background-color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000000;
+  color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000000;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -10168,7 +10169,7 @@ body {
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "futura";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -10181,7 +10182,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/hero_1.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/hero_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10189,11 +10190,15 @@ body {
 }
 @font-face {
     font-family: 'toxico';
-    src: url("../assets/fonts/toxico.otf");
+    src: url("../fonts/toxico.otf");
 }
 @font-face {
     font-family: 'pricedown';
-    src: url("../assets/fonts/pricedown.ttf");
+    src: url("../fonts/pricedown.ttf");
+}
+@font-face {
+    font-family: 'futura';
+    src: url("../fonts/futura.ttf");
 }
 .masthead h1 {
   font-family: "pricedown";
@@ -10274,7 +10279,7 @@ body {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "futura";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -10290,7 +10295,7 @@ body {
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "futura";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -10323,4 +10328,28 @@ body {
 }
 .site-icon{
   width: 40%;
+}
+.no-margin{
+  padding: 0px;
+  margin: 0px;
+}
+.main{
+  min-height: 600px;
+  max-height: 700px;
+  overflow: hidden;
+}
+.bg-image{
+  background-color: #000000;
+}
+.bg-image img{
+  width: 100%;
+  opacity: .5;
+}
+.gradient-div{
+  left: 0px;
+  bottom: 55px;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(0, 0, 0,0) 0%, rgba(0, 0, 0,.5) 50%, #000000 100%);
 }
