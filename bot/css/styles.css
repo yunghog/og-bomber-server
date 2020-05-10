@@ -10180,21 +10180,25 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/hero_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+@font-face {
+    font-family: 'toxico';
+    src: url("../assets/fonts/toxico.otf");
+}
+@font-face {
+    font-family: 'pricedown';
+    src: url("../assets/fonts/pricedown.ttf");
+}
 .masthead h1 {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "pricedown";
   font-size: 2.5rem;
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
+  color: #fff;
 }
 .masthead h2 {
   max-width: 20rem;
@@ -10204,6 +10208,7 @@ body {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
+    letter-spacing: normal;
   }
 }
 @media (min-width: 992px) {
@@ -10214,7 +10219,6 @@ body {
   .masthead h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
-    letter-spacing: 0.8rem;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -10314,5 +10318,5 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
