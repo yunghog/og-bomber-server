@@ -1,0 +1,70 @@
+body{
+  background-image: url("../images/hero_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: color-fade ease 3s;
+  animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ background-blend-mode: soft-light;
+ font-family: "futura";
+ color: #fff;
+}
+@font-face
+ {
+   font-family: "pricedown";
+   src: url(../fonts/pricedown.ttf);
+ }
+ @font-face
+  {
+    font-family: "futura";
+    src: url(../fonts/futura.ttf);
+  }
+
+@keyframes color-fade {
+  0% {
+    background-color: rgba(0,0,0,0);
+  }
+  100% {
+    background-color: rgba(0,0,0,.7);
+  }
+}
+@keyframes fade-up {
+  0% {
+    padding-top: 30px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    padding-top: 0px;
+  }
+}
+#fade-up-anim{
+  animation: fade-up ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.big_header{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 56px;
+  font-family: "pricedown";
+}
+.cap{
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: "futura";
+  text-transform: uppercase;
+}
+p{
+  font-family: "futura";
+  padding: 10px;
+}
+.heading-con{
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  animation: fade-up ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
