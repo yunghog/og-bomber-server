@@ -20,8 +20,18 @@
       <div class="col-md-8 text-center">
         <img src="../images/logo.png" alt="" height="50px">
       </div>
-      <div class="col-md-2">
-
+      <div class="col-md-2 text-right">
+        <div class="user-details">
+          <i class="fa fa-user"></i>
+          <div class="user-popup">
+            <p>
+              yungh
+              <form class="" action="../php/logout.php" method="post">
+                <button type="submit" name="signout" class="btn btn-danger">Logout</button>
+              </form>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
