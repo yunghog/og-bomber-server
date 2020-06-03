@@ -117,6 +117,13 @@ p{
 .header-scrolled{
 background-color: #00c1e1;
 }
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: #111111;
+}
 header{
   width: 100%;
   padding: 10px;
