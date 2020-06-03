@@ -44,6 +44,11 @@ body{
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+.fade-up-anim{
+  animation: fade-up ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
 .big_header{
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -59,6 +64,8 @@ body{
 p{
   font-family: "futura";
   padding: 10px;
+  color: #fff;
+  font-size: 18px;
 }
 .heading-con{
   position: absolute;
@@ -72,9 +79,119 @@ p{
   padding: 20px;
   width: 100%;
   background-color: #000000;
-  border-radius: 30px;
+  border-radius: 10px;
 }
-.form-control{
-  background: rgba(255, 0, 0, 0);
+.form-control2{
+  background: #000000;
   border: none;
+}
+.color2{
+  color: #44ff90;
+}
+.login-form input{
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #44ff90;
+  width: 100%;
+}
+.login-form input:active {
+  border: 1px !important;
+}
+.login-form i{
+  padding: 5px;
+  font-size: 22px;
+  color: #44ff90;
+}
+.btn{
+  /* font-size: 12px !important; */
+  font-weight: bolder !important;
+  text-transform: uppercase;
+}
+.btn-sec{
+  color: #000000;
+  background-color: #44ff90;
+}
+.btn-sec:hover{
+  box-shadow: 0 0 15px #44ff90 !important;
+}
+header{
+  width: 100%;
+  padding: 10px;
+}
+header i{
+  font-size: 20px;
+  color: #fff;
+}
+.btn-menu{
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px;
+  font-size: 22px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .active2 a{
+  color: #00e4ff;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.dropdown-content2{
+  z-index: 20;
+  background-color: rgba(0,0,0,.7);
+  /* width: 200px; */
+  position: absolute;
+  padding-left: 10px;
+  top: -10px;
+  transition: all .3s ease, opacity .2s linear;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+.dropdown-content2 a{
+  font-size: 20px;
+}
+.sidenav .dropdown a{
+  padding-top: 0px;
+}
+.sidenav .dropdown:hover .dropdown-content2{
+  opacity: 1;
+  top: 5px;
+  display: block;
+  visibility: visible;
+  position: relative;
+}
+.sidenav i{
+  font-size: 12px;
 }
