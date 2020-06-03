@@ -17,6 +17,9 @@ if(isset($_SESSION['user_id'])){
   </head>
   <body>
     <?php include 'header.php'; ?>
+    <br>
+    <br>
+    <?php include 'footer.php'; ?>
     <script type="text/javascript">
       document.getElementById('index').classList.add('active2');
     </script>
