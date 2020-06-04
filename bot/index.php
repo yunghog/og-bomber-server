@@ -18,14 +18,14 @@
         <div class="row">
           <div class="col-md-4">
             <div class="heading-con">
-              <h1 class="big_header">keaton_bot</h1>
+              <h1 class="big-text">keaton_bot</h1>
               <h5 class="cap">telegram</h5>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
