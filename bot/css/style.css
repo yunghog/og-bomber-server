@@ -57,7 +57,7 @@ body{
 }
 .cap{
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 24px;
   font-family: "futura";
   text-transform: uppercase;
 }
@@ -66,6 +66,7 @@ p{
   padding: 10px;
   color: #fff;
   font-size: 18px;
+  /* text-align: justify; */
 }
 .heading-con{
   position: absolute;
@@ -226,6 +227,12 @@ header i{
 .active2{
   color: #00c1e1 !important;
 }
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  text-decoration: none !important;
+}
 .user-popup{
   animation: fadeInAnimation .1s ease;
   padding: 5px;
@@ -247,6 +254,20 @@ header i{
 }
 .table-con{
   height: 0px;
-  overflow: hidden;
+  overflow-y: hidden;
   transition: 1s ease;
+  overflow-x: scroll;
+}
+.btn-panel{
+  height: 100px;
+  width: 95%;
+  padding: 5px 10px 5px 10px;
+  background-color: rgba(255, 0, 0, 0);
+  /* margin: 10px; */
+  border: 2px solid #00c1e1;
+  transition: 1s ease;
+  color: #fff;
+}
+.btn-panel:hover{
+  background-color: rgba(0, 193, 225, .7);
 }
