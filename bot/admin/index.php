@@ -31,8 +31,46 @@ if(isset($_SESSION['user_id'])){
       <br>
       <div class="container">
         <div class="row">
+          <div class="col-md-3">
+            <a href="#users-data" onclick="show_table('users-table')">
+              <div class="btn-panel">
+                <h3 class="cap"><i class="fa fa-user"></i> Users</h3>
+                <?php
+                $userc_query="SELECT count(*) from user where active=1";
+                $execc=mysqli_query($conn,$userc_query);
+                $rowc=mysqli_fetch_array($execc);
+                // echo $rowc['count(*)'];
+                 ?>
+                 <p>Active Users : <?php echo $rowc['count(*)']; ?></p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#bomb-data" onclick="show_table('bomb-table')">
+              <div class="btn-panel">
+                <h3 class="cap"><i class="fa fa-bomb"></i> bomb</h3>
+                <?php
+                $bombc_query="SELECT count(*) from bombs";
+                $execbc=mysqli_query($conn,$userc_query);
+                $rowbc=mysqli_fetch_array($execc);
+                // echo $rowbc['count(*)'];
+                 ?>
+                 <p>Bombs : <?php echo $rowbc['count(*)']; ?></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
           <div class="col-sm-10">
             <div class="row">
+              <div class="col-sm-12">
+                <h1 class="big-text">data</h1>
+              </div>
+            </div>
+            <div class="row" id="users-data">
               <div class="col-xs-10">
                 <span class="cap">users</span>
               </div>
@@ -75,7 +113,7 @@ if(isset($_SESSION['user_id'])){
               </div>
             </div>
             <hr class="tb">
-            <div class="row">
+            <div class="row" id="bomb-data">
               <div class="col-xs-10">
                 <span class="cap">Bombs</span>
               </div>
@@ -135,12 +173,12 @@ if(isset($_SESSION['user_id'])){
       if (con.style.height=="150px") {
         con.style.height="0px";
         con.style.overflowY="hidden";
-        event.srcElement.innerHTML="<i class=\"fa fa-chevron-down\"></i>";
+        // event.srcElement.innerHTML="<i class=\"fa fa-chevron-down\"></i>";
       }
       else{
         con.style.height="150px";
         con.style.overflowY="scroll";
-        event.srcElement.innerHTML="<i class=\"fa fa-chevron-up\"></i>";
+        // event.srcElement.innerHTML="<i class=\"fa fa-chevron-up\"></i>";
       }
       }
     </script>
