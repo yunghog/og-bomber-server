@@ -95,8 +95,8 @@ if(isset($_SESSION['user_id'])){
                       $query="SELECT a.*,b.* from user a, role b where a.role=b.id and active=1";
                       // echo $query;
                       $exec=mysqli_query($conn,$query);
+                      $i=1;
                       while($row=mysqli_fetch_array($exec)){
-                        $i=1;
                         ?>
                         <tr>
                           <td><?php echo $i; ?></td>
@@ -105,6 +105,7 @@ if(isset($_SESSION['user_id'])){
                           <td><?php echo $row['os']; ?></td>
                         </tr>
                         <?php
+                        $i++;
                       }
                        ?>
                     </tbody>
@@ -139,8 +140,8 @@ if(isset($_SESSION['user_id'])){
                       $query2="SELECT a.*,b.* from user a, bombs b where a.id=b.user_id";
                       // echo $query2;
                       $exec2=mysqli_query($conn,$query2);
+                      $i=1;
                       while($row2=mysqli_fetch_array($exec2)){
-                        $i=1;
                         ?>
                         <tr>
                           <td><?php echo $i; ?></td>
@@ -150,6 +151,7 @@ if(isset($_SESSION['user_id'])){
                           <td><?php echo $row2['date']; ?></td>
                         </tr>
                         <?php
+                        $i++;
                       }
                        ?>
                     </tbody>
