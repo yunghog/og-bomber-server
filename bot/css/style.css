@@ -257,6 +257,8 @@ a:hover{
   overflow-y: hidden;
   transition: 1s ease;
   overflow-x: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 .btn-panel{
   height: 100px;
