@@ -271,3 +271,6 @@ a:hover{
 .btn-panel:hover{
   background-color: rgba(0, 193, 225, .7);
 }
+.table-con::-webkit-scrollbar {
+    display: none !important;
+}
