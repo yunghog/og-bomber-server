@@ -1,4 +1,4 @@
-# og-bomber-server
+# og-bomber-server (Discontinued)
 Server that receive requests and return responses to og-bomber, sms spoofing python script
 
 [![Build Status](https://img.shields.io/badge/version-v01.3-green?style=flat-square)](https://github.com/yunghog/w3bsite13locker)
